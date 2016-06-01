@@ -1,0 +1,250 @@
+/*
+Theme Name: eshopper
+
+
+*/
+ 
+ /*
+ ===============================================
+ WOCOOMERCE SPECIFIC STYLE
+ ===============================================
+ */
+ .woocommerce ul.products li.product .price {
+     color: #FE980F;
+    font-size: 13px;
+    font-weight: 700;
+}
+.woocommerce ul.products li.product .price del {
+    
+    display: inline-block;
+}
+.woocommerce ul.products li.product .price ins {
+   
+    float: right;
+    margin-right: 20px;
+}
+.woocommerce ul.products li.product h3 {
+    
+    color: #000;
+}
+.woocommerce ul.products li.product a {
+  
+    background: rgba(158, 158, 158, 0.37);
+    
+    border-radius: 0;
+}
+.woocommerce ul.products li.product a:hover{
+	background: #FE980F;
+	color:#fff;
+}
+.shop-menu ul li a {
+  
+    display: inline;
+}
+
+
+.shop-widget {
+    list-style: none;
+    margin: 25px 0;
+}
+
+.woocommerce-page #content div.product div.images {
+    float: left;
+   width:100%;
+}
+.woocommerce-page #content div.product div.summary{
+    float: right;
+   width:100%;
+}
+.product-details {
+    
+    margin-top: 0px;
+}
+#similar-product {
+   
+    margin-top: 40px;
+    height: 200px;
+    display: block;
+
+    OVERFLOW: HIDDEN;
+}
+#similar-product .carousel-inner .item {
+    padding-left: 0px;
+    height: inherit;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: inherit;
+}
+
+.woocommerce div.product div.images div.thumbnails {
+    display:none;
+}
+
+
+#similar-product .carousel-inner .item img{
+	width:100%;
+	height:100%;
+}
+.product-information h2 {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+.woocommerce-page #content div.product div.summary h1{
+   color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+.custom-sku{
+	color: #696763;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+.woocommerce-product-rating {
+    color: #FE980F;
+}
+a.woocommerce-review-link {
+    display: none;
+}
+div[itemprop="offers"] {
+    display: inline-block;
+	
+}
+div[itemprop="offers"] p span{color:#FE980F; font-weight:700;}
+div.product form.cart, .woocommerce div.product p.cart {
+    /* margin-bottom: 2em; */
+    display: inline-block;
+}
+.woocommerce div.product form.cart{
+	margin-bottom:0;
+}
+.woocommerce div.product form.cart {
+    margin-bottom: 0;
+    vertical-align: top;
+	background:transparent;
+}
+.woocommerce div.product form.cart button.single_add_to_cart_button.button{
+	background:#FE980F;
+	
+	border-radius:0px;
+}
+.woocommerce button.button.alt:hover{
+	color:rgba(0, 0, 0, 1)
+}
+.woocommerce div.product form.cart input{
+	height: 34px;
+}
+.woocommerce div.product form.cart div.quantity {
+    float: left;
+    margin: 0 4px 0 0;
+    color: rgb(158, 158, 158);
+    font-weight: 700;
+}
+.eshopper-aval {
+    margin-top: 30px;
+	    margin-bottom: 5px;
+}
+.eshopper-aval span {
+    font-weight: 700;
+}
+.shoiacl-product{
+	margin-top:20px;
+	margin-left:-11px;
+	margin-right:-11px;
+}
+.shoiacl-product  .btn.btn-primary{
+	margin: 0 11px;
+}
+.shoiacl-product  .btn.btn-primary i{
+	color: #795548;
+    font-weight: 700;
+	
+}
+
+.shoiacl-product  .btn.btn-primary:hover {
+	border-radius:5px;
+	color:black;
+	 font-weight: 700;
+}
+.shoiacl-product  .btn.btn-primary:hover i{
+	color:#4CAF50;
+}
+/*Widget style*/
+.product-sidebar {
+   margin-top: -35px;
+}
+.widget.single-product{
+	padding: 0 10px;
+	background:rgba(121, 85, 72, 0.1);
+	margin: 35px 0;
+	
+}
+.product-sidebar li{
+	list-style:none;
+}
+h2.singleproductwidgettitle {
+	padding:10px 0;
+    font-size: 19px;
+    color: #FE980F;
+	text-align:center;
+}
+
+.shop-details-tab {
+   
+    clear: both;
+}
+
+table.shop_table.shop_table_responsive.cart.table.table-condensed {
+    background: transparent;
+}
+.woocommerce table.shop_table {
+    
+     border-radius: 0px;
+}
+.woocommerce table.shop_table  thead { background: #FE980F; }
+.blog-post-area 
+ .single-blog-post a img {
+   
+    width: 110px;
+   
+    height: 110px;
+}
+.woocommerce table.shop_table  thead tr th{    padding-top: 22px;
+    padding-bottom: 22px;
+}
+table.shop_table tr td a{
+	color:#363432;
+	font-weight:700;
+}
+table.shop_table tr td a:hover {
+    outline: none;
+    text-decoration: none;
+}
+.product-subtotal{
+	color:#000000;
+	font-weight:700;
+}
+.woocommerce a.remove {
+    
+    border-radius: 0px;
+    color: #fff!important;
+	background: #9E9E9E;
+    
+}
+.woocommerce a.remove:hover{
+	background: #FE980F;
+}
+
+
+
+
+
+
+
+
+

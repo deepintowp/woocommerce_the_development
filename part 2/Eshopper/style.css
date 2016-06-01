@@ -1,0 +1,57 @@
+/*
+Theme Name: eshopper
+
+
+*/
+ 
+ /*
+ ===============================================
+ WOCOOMERCE SPECIFIC STYLE
+ ===============================================
+ */
+ .woocommerce ul.products li.product .price {
+     color: #FE980F;
+    font-size: 13px;
+    font-weight: 700;
+}
+.woocommerce ul.products li.product .price del {
+    
+    display: inline-block;
+}
+.woocommerce ul.products li.product .price ins {
+   
+    float: right;
+    margin-right: 20px;
+}
+.woocommerce ul.products li.product h3 {
+    
+    color: #000;
+}
+.woocommerce ul.products li.product a {
+  
+    background: rgba(158, 158, 158, 0.37);
+    
+    border-radius: 0;
+}
+.woocommerce ul.products li.product a:hover{
+	background: #FE980F;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
